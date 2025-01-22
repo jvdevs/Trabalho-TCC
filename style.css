@@ -1,0 +1,84 @@
+
+
+.fundo-geral {
+    background-image: url(../img/fundo-geral.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-login {
+    width: 510px;
+    height: 450px;
+    background-color: #1c6944;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.formulario-cadastro {
+    width: 510px;
+    height: 525px;
+    background-color: #1c6944;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.formulario-login form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.formulario-login .form-group {
+    margin: 15px 0
+}
+
+.formulario-login .form-group label {
+    font-size: 16px;
+     color: #fff
+}
+
+.formulario-login .fa-lock {
+    background: #fff;
+    color: #1c6944;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 27px
+
+}
+
+.formulario-login h1 {
+    margin-top: 30px
+}
+
+
+
+
+.formulario-cadastro form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.formulario-cadastro .form-group {
+    margin: 15px 0
+}
+
+.formulario-cadastro .form-group label {
+    font-size: 16px;
+     color: #fff
+}
+
+.formulario-cadastro .fa-lock {
+    background: #fff;
+    color: #1c6944;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 27px
+
+}
+
+.formulario-cadastro h1 {
+    margin-top: 30px
+}

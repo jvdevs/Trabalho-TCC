@@ -1,0 +1,112 @@
+body {
+    display: flex;
+}
+.sidebar {
+    width: 250px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    color: white;
+    height: 100vh;
+    position: fixed;
+}
+.sidebar h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+.sidebar a {
+    color: #d9d9d9;
+    font-size: 16px;
+    margin-bottom: 2px;
+    padding: 10px 0px;
+    display: block;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.sidebar a i {
+    color: #fff;
+    margin-right: 5px
+}
+.sidebar a:hover {
+    background-color: #4f4f4f;
+    padding-left: 10px;
+    color: #fff !important;
+    transition: all 0.3s ease;
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background: #3f3f3f;
+    max-width: calc(100% - 250px);
+    margin-left: 250px
+}
+#user-name, #user-email {
+    text-align: center;
+}
+hr {
+    background: #01b563;
+}
+.card-inv {
+    border: 1px solid #01a359;
+    margin: 10px;
+    max-width: 31% !important;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-inv h3 {
+    font-size: 22px
+}
+
+.card-inv p {
+    color: #c7c7c7 !important
+}
+
+.card-forum {
+    background: #325644;
+    padding: 20px;
+    border: 1px solid #00b359;
+    border-radius: 10px;
+
+}
+/* Estilos para a lista de moedas */
+#currency-values {
+    margin-bottom: 20px;
+}
+#currency-list {
+    height: 280px; /* Altura fixa */
+    overflow-y: auto; /* Permite rolagem vertical */
+    border-radius: 5px;
+    padding: 10px;
+    list-style: none; /* Remove marcadores padrão */
+}
+#currency-list li {
+    padding: 5px;
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+/* Linhas zebradas */
+#currency-list li:nth-child(odd) {
+    background-color: #3f3f3f; /* Cor para linhas ímpares */
+}
+#currency-list li:nth-child(even) {
+    background-color: #4f4f4f; /* Cor para linhas pares */
+}
+#currency-list li:hover {
+    background-color: #325644; /* Cor ao passar o mouse */
+}
+#chart-container {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.card-texto {
+    background: #4f4f4f;
+    padding: 20px;
+    border-radius: 10px
+}
+
+.f-300 {
+    font-weight: 300;
+}
